@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: tahoma, Arial;
+}
+
+.all-container-result {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    padding: 20px 25px;
+    /* background-color: #555; */
+}
+
+.cantainer-input {
+    position: relative;
+    padding: 20px;
+    background-image: linear-gradient(135deg, #FFD3A5 10%, #FD6585 100%);
+    border: 2px solid #ffa646;
+    border-radius: 62px;
+}
+
+.cantainer-input input {
+    background-color: #e91e634a;
+    width: 98%;
+    height: 43px;
+    border: none;
+    font-size: large;
+    border-radius: 20px;
+    color: white;
+    padding-left: 25px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.cantainer-input .plus {
+    position: absolute;
+    background-image: linear-gradient(14deg, #81FFEF 10%, #F067B4 100%);
+    width: 43px;
+    height: 43px;
+    float: left;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    font-size: 33px;
+    right: 3%;
+    transition: transform 1s;
+    cursor: pointer;
+}
+
+.cantainer-input .plus:hover {
+    transform: rotate(180deg);
+}
+
+.container-info {
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.C-taske {
+    float: left;
+}
+
+.C-complete {
+    float: right;
+}
+
+.container-info span {
+    background-color: #FD6585;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.all-items {
+    background-color: #f9f3f3;
+    margin-top: 50px;
+    height: 400px;
+    overflow: overlay;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.item-data {
+    background-color: rgb(235, 233, 233);
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.item-data :first-child {
+    font-size: 20px;
+    padding: 23px;
+    width: 50%;
+    color: #555;
+}
+
+.item-data :last-child {
+    float: right;
+    cursor: pointer;
+    padding: 4px;
+    background-color: rgb(238, 28, 46);
+    color: #f1f1f1;
+    border-radius: 10px;
+}
+
+
+
+.null{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    color: #555;
+    border: 1px solid #777;
+    border-radius: 20px;
+}
